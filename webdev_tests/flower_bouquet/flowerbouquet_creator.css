@@ -1,0 +1,13 @@
+body{
+    color:mediumblue;
+}
+
+form{
+    background-color: darkorange;
+}
+
+#frm{
+    width: 540px;
+    border-color:blue;
+    padding:10px;
+}

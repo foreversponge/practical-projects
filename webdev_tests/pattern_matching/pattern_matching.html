@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+        <title> Pattern Matching </title>
+        <meta charset = "utf-8"/>
+
+        <style type = "text/css">
+            .error {
+                background-color: yellow;
+                color:red;
+            }
+        </style>
+        <script type = "text/javaScript" src = "pattern_matching.js"> </script>
+    </head>
+    
+    <body>
+            <h1> Pattern Matching </h1> 
+            <p>Enter a variable name starting with a lowercase letter followed by any number of letters (lower or
+            <br> 
+            upper case), digits or the underscore character. The variable name should not have previously been
+            <br>
+            added. 
+            </p>
+            <form> 
+            var <input type = "text" id = "varName" class = "temporary" onkeyup = "validateVariable()"/> <input type = "button" value = "Add" onclick = "addVariable()"/>
+
+            <br>
+            <ul id = "list"></ul>
+        </form>
+    </body>
+</html>

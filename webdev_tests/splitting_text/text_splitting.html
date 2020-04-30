@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang ="en">
+    <script type = "text/javaScript" src = "text_splitting.js">
+    </script>
+
+    <head>
+        <title> Text Splitting </title>
+        <meta charset = "utf-8">
+    </head>
+
+    <body>
+
+        <h1>Text Splitting</h1>
+
+        <form>
+            Search in this text:
+            <br>
+            <textarea rows = "10" cols = "80" id = "userText"></textarea>
+            <br>
+            Split the text according to these characters:  <input type = "text" id = "char" size = "20"/>
+            <br>
+            Test each word with regex: <input type = "text" id ="word" size = "20"/>
+            <br>
+            Modifiers for the regex: <input type = "text" id = "modif" size = "5"/> 
+            <br> 
+            <input type = "button" value = "Search" onclick = "textsplit()"/> <input type = "reset"/>
+            <br>
+            <p id = "result"></p>
+        </form>
+        
+    </body>
+
+
+
+
+
+</html>
